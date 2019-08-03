@@ -524,7 +524,6 @@ body {
   }
   .top-left-img {
     width: 300px;
-    opacity: 0.6;
   }
   .top-title {
     font-size: 26px;
@@ -535,6 +534,7 @@ body {
   }
   .top-right {
     text-align: center;
+    margin: auto;
   }
   .description {
     margin-bottom: 56px;
