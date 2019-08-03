@@ -1,4 +1,5 @@
 $(function() {
+
   let shapeTop1 = parseInt($('.js-shape-parallax-1').css('top'));
   let shapeTop2 = parseInt($('.js-shape-parallax-2').css('top'));
   let shapeTop3 = parseInt($('.js-shape-parallax-3').css('top'));
@@ -14,6 +15,15 @@ $(function() {
   
   $(window).on('scroll', function() {
     let scrollValue = $(this).scrollTop();
+
+    // stick header
+    if (scrollValue > 900) {
+      $('.js-stick-header').addClass('is-show');
+    } else {
+      $('.js-stick-header').removeClass('is-show');
+    }
+
+    // shape parallax
     let scrollValue4 =  scrollValue / 4;
     let scrollValue5 =  scrollValue / 5;
     $('.js-shape-parallax-1').css('top', shapeTop1 + scrollValue5);
