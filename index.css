@@ -375,7 +375,7 @@ body {
   z-index: -1;
 }
 .contents-shape-4 {
-  bottom: -100px;
+  top: 400px;
   position: absolute;
   right: -290px;
   width: 800px;
@@ -585,8 +585,4 @@ body {
   .contact-shape-1 {
     top: -450px;
   }
-}
-
-@media screen and (max-width: 375px) {
-
 }
