@@ -599,7 +599,7 @@ body {
   }
   .contents-list .contents-list-item .contents-list-item-desc {
     width: 100%;
-    padding: 0 32px;
+    padding: 0 8px;
   }
   .join {
     padding: 0 32px;
