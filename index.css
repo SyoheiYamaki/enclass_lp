@@ -293,7 +293,7 @@ body {
 // what`s Enclass+
 // =================== */
 .description {
-  margin-bottom: 96px;
+  margin-bottom: 146px;
   position: relative;
   text-align: center;
 }
@@ -333,6 +333,7 @@ body {
 .contents {
   position: relative;
   text-align: center;
+  margin-bottom: 156px;
 }
 .contents-list-item {
   align-items: center;
@@ -340,11 +341,16 @@ body {
   justify-content: center;
   margin-bottom: 80px;
 }
+.contents-list-item:nth-child(1) .contents-list-item-desc,
+.contents-list-item:nth-child(3) .contents-list-item-desc {
+  padding-left: 40px;
+}
 .contents-list-item:nth-child(2) .contents-list-item-desc {
     order: 1;
 }
 .contents-list-item:nth-child(2) .contents-list-item-img-box{
     order: 2;
+    padding-left: 40px;
 }
 .contents-list-item-img-box {
   width: 550px;
@@ -403,7 +409,7 @@ body {
   z-index: -1;
 }
 .join {
-  margin-bottom: 136px;
+  margin-bottom: 146px;
   position: relative;
   text-align: center;
 }
@@ -561,7 +567,6 @@ body {
     margin: auto;
   }
   .description {
-    margin-bottom: 56px;
     padding: 0 24px;
   }
   .section-title {
@@ -574,26 +579,33 @@ body {
     display: block;
     margin-bottom: 40px;
   }
+  .contents-list-item:nth-child(1) .contents-list-item-desc,
+  .contents-list-item:nth-child(3) .contents-list-item-desc {
+    padding-left: 0px;
+  }
+  .contents-list-item:nth-child(2) .contents-list-item-img-box{
+    padding-left: 0px;
+  }
   .contents-list-item-title {
     font-size: 20px;
     margin-bottom: 24px;
   }
   .contents-list-item-img-box {
     width: 100%;
+    margin-bottom: 24px;
   }
   .contents-list-item-img {
     width: 80%;
   }
-  .contents-list-item-desc {
+  .contents-list .contents-list-item .contents-list-item-desc {
     width: 100%;
+    padding: 0 32px;
   }
   .join {
-    padding: 0 24px;
-    margin-bottom: 56px;
+    padding: 0 32px;
   }
   .rule {
-    padding: 0 24px;
-    margin-bottom: 56px;
+    padding: 0 32px;
   }
   .rule-list-item-img {
     width: 150px;
@@ -603,7 +615,7 @@ body {
     font-size: 12px;
   }
   .contact {
-    padding: 0 24px;
+    padding: 0 32px;
     margin-bottom: 56px;
   }
   .contact-shape-1 {
