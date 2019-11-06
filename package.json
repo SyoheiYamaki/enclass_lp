@@ -1,0 +1,19 @@
+{
+  "name": "enclass_lp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyoheiYamaki/enclass_lp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyoheiYamaki/enclass_lp/issues"
+  },
+  "homepage": "https://github.com/SyoheiYamaki/enclass_lp#readme"
+}
